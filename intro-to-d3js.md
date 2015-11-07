@@ -16,6 +16,5 @@ All of this greatly reduces the bottlenecks that you otherwise might encounter w
 D3js is not a subsition for Qlik Sense normal charts but sometimes you want a very specific chart for a specific purpose. Or maybe you want to create a highly interactive story that uses Qlik Sense data and our unique association engine. Perhaps that boring old annual report could be turned into a interactive data graphic?  
 
 ##But everyone keeps telling me D3 is super hard!  
-And they are probably correct, D3 has a little bit of a learning curve but once you master it it becomes a great tool. D3 is based around 3 core technologies, JavaScript, HTML and SVG. Some previous expereince with these three greatly helps you getting started with D3 and the Qlik APIs.  
-
+And they are probably correct, D3 has a little bit of a learning curve but once you master it it becomes a great tool. D3 is based around 3 core technologies, JavaScript, HTML and SVG. Some previous experience with these three greatly helps you getting started with D3 and the Qlik APIs.    
 This was the first article in a multi-part series on how to get started with D3js and Qlik Sense. In the next article we will cover how to build your first D3 graph together with Qlik Sense.
