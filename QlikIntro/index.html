@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.min.js"></script>
+    <script src="marked.min.js"></script>
+</head>
+<body>
+    <article id="content"></article>
+    <script>
+        
+        $.get('draft.md').then(function(data) {
+            data.split('<!--BREAK-->').forEach(function(d) {
+                
+                var section = document.createElement('section');
+                section.innerHTML = marked(d);
+                document.getElementById('content').appendChild(section);
+                
+            })
+        })
+        
+    </script>
+</body>
+</html>
